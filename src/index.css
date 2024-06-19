@@ -1,0 +1,16 @@
+.loginapp {
+    height: 100vh;
+    background-image: url('./Image/login.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .MCard
+  {
+   margin-left: 55px;
+  }
+  .Width
+  {
+ 
+    background: black;
+
+  }

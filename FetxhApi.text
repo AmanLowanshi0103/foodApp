@@ -1,0 +1,11 @@
+async function postData(url = "", data = {}) {
+  const response = await fetch(url, {
+    method: "POST", // *GET, POST, PUT, DELETE, etc.
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data), 
+  });
+  return response.json(); 
+}
+ {!localStorage.getItem("token")?<div class="position-absolute top-0 end-0 my-2" ><Link class="btn btn-dark" to="/login" role="button">Login</Link><Link class="btn btn-dark" to="/signup" role="button">SignUp</Link></div>:<div class="position-absolute top-0 end-0 my-2"><button class="btn btn-dark mx-2" onClick={logOut}>Logout</button></div>}
